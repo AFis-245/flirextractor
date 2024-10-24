@@ -82,10 +82,10 @@ class CameraPlanckConsts(typing.NamedTuple):
     Based of factory calibration and are stored in FLIR image metadata.
     """
 
-    r1: float = 21106.77
-    r2: float = 0.012545258
-    b: float = 1501
-    zero: float = -7340
+    r1: float = 16056.111 #21106.77
+    r2: float = 0.014308703 #0.012545258
+    b: float = 1418.8 #1501
+    zero: float = -4227 #-7340
     f: float = 1
 
 
