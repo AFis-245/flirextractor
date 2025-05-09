@@ -26,8 +26,8 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.6"
 pyexiftool = "^0.1.1"
-#pillow = ">=6.2 <=8.0.0"
-pillow = "pillow>=8.3.2"
+#pillow = ">=6.2 <=8.0.0"  # pillow version that is installed in flirextractor package
+pillow = "pillow>=8.3.2"  # pillow version that is required by imageio
 numpy = "^1.17"
 
 [tool.poetry.dev-dependencies]
