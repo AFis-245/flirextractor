@@ -6,7 +6,7 @@ import io
 import typing
 
 import numpy as np  # type: ignore
-from exiftool import ExifTool, fsencode  # type: ignore
+from .exiftool import ExifTool, fsencode  # type: ignore
 from PIL import Image  # type: ignore
 
 from .pathutils import Path, get_str_filepath
