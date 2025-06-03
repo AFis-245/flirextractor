@@ -25,14 +25,13 @@ classifiers = [
 requires-python = ">=3.9"
 dependencies = [
     "numpy",
-    #"pyexiftool",
     "pillow",
 ]
 
 [project.optional-dependencies]
 dev = [
     "black==19.10b0",
-    "mypy==0.782",
+    "mypy>=1.0",
     "flake8==3.7",
     "pytest==5.2",
     "tomlkit==0.7.0",
