@@ -59,7 +59,8 @@ def _get_raw_np(exiftool: ExifTool, filepath: Path) -> np.ndarray:
     as_array = np.array(image)
     if image.format == "PNG":
         # bug in FLIR cameras -> they sometimes save in little-endian format
-        as_array = as_array.astype("uint16").newbyteorder()
+        #as_array = as_array.astype("uint16").newbyteorder()
+        as_array = as_array.astype("uint16").view(as_array.dtype.newbyteorder())
     return as_array
 
 
