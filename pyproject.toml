@@ -22,7 +22,7 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "numpy",
     #"pyexiftool",
